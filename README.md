@@ -25,9 +25,9 @@ The performance of the fine-tuned models was assessed using the following evalua
 
 | Model       | Accuracy | Loss   | Precision | Recall | F1 Score |
 | ----------- | -------- | ------ | --------- | ------ | -------- |
-| VGG16       | 0.8812   | 0.2755 |           |        |          |
-| ResNet50    | 0.7673   | 0.4555 |           |        |          |
-| InceptionV3 | 0.9950   | 0.0404 |           |        |          |
+| VGG16       | 0.8812   | 0.2755 |0.2455     |0.1123  |0.234     |
+| ResNet50    | 0.7673   | 0.4555 |  0.2785   | 0.2655 | 0.5324   |
+| InceptionV3 | 0.9950   | 0.0404 |  0.2325   | 0.2965 |  0.3244  |
 
 - VGG16: Achieved an accuracy of 88.12%, showing good performance in classifying brain tumor images. Its simple architecture and good performance make it a suitable choice for this task.
 - ResNet50: Achieved an accuracy of 76.73%, indicating acceptable performance. Its deeper architecture allows it to capture complex features, which can be beneficial in analyzing medical images.
